@@ -32,7 +32,7 @@ app.get(`/t/:tag`, (req, res) => {
 });
 
 app.get(`/cats`, (req, res) => {
-  const cats = [`jack`, `back`, `kek`, `john`];
+  const cats = [`jack`, `back`, `kek`, `john`, `jake`];
   res.render(`cats`, { cats });
 });
 
